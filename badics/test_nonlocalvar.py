@@ -18,7 +18,7 @@ class Test(object):
 			global iamglobal
 			nonlocal var1
 
-			var1 = "non-local changed"
+			var1 = "non-local changed in testF2"
 			iamglobal = "iamglobal changed in testF2"
 
 			return var1,iamglobal
